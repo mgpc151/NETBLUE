@@ -1,0 +1,95 @@
+
+
+#navbar{
+    justify-content: center;
+    background-color: transparent;
+    
+}
+
+h1{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+#genero {
+    margin: 20px auto;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 40px 12px 16px;
+
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+
+    cursor: pointer;
+    outline: none;
+
+
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+#genero:hover {
+    border-color: #090de5;
+    background-color: #191645;
+}
+
+#genero:focus {
+    border-color: #091be5;
+    box-shadow: 0 0 0 3px rgba(13, 5, 98, 0.25);
+}
+
+#genero:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Estilo das opções (suporte varia por navegador) */
+#genero option {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Estado quando nenhum gênero foi selecionado (placeholder) */
+#genero:invalid,
+#genero option[value=""] {
+    color: #a3a3a3;
+}
+
+
+#container-search{
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+#container-search {
+    background-color: transparent;
+    width: 100%;
+}
+
+.row-wrapper {
+    width: 100%;
+    background: transparent;
+}
+
+.section {
+    background: transparent;
+    width: 100%;
+}

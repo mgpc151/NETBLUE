@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina search</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pageSearch.css" />
+    <script src="../js/pageSearch.js" defer></script>
+  </head>
+
+  <body>
+    <div id="container-Main">
+      <header>
+        <div class="logo">
+          <img src="../assets/imgs/simbolo.webp" alt="Logo Netflix" />
+        </div>
+
+        <h1>NETBLUE</h1>
+
+      </header>
+
+      <hr />
+
+      <input type="text" placeholder="Pesquisar..." id="searchInput" />
+
+      <nav id="navbar">
+        <a href="../index.html">Voltar</a>
+      </nav>
+
+      <hr />
+
+      <main>
+        <h1>Encontrados Filmes e Séries</h1>
+        <select id="genero">
+          <option value="">Selecione um gênero</option>
+          <option value="28">Ação</option>
+          <option value="12">Aventura</option>
+          <option value="16">Animação</option>
+          <option value="35">Comédia</option>
+          <option value="80">Crime</option>
+          <option value="99">Documentário</option>
+          <option value="18">Drama</option>
+          <option value="10751">Família</option>
+          <option value="14">Fantasia</option>
+          <option value="36">História</option>
+          <option value="27">Terror</option>
+          <option value="10402">Música</option>
+          <option value="9648">Mistério</option>
+          <option value="10749">Romance</option>
+          <option value="878">Ficção Científica</option>
+          <option value="10770">Cinema TV</option>
+          <option value="53">Thriller</option>
+          <option value="10752">Guerra</option>
+          <option value="37">Faroeste</option>
+        </select>
+        <section id="section-search" class="section">
+          <div class="row-wrapper">
+            <div id="container-search" class="container"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+       <p>&copy; 2024 NetBlue. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

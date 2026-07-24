@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>serie</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pageSerie.css" />
+    <script src="../js/pageSerie.js" defer></script>
+  </head>
+
+  <body>
+    <div id="container-Main">
+      <header>
+        <div class="logo">
+          <img src="../assets/imgs/simbolo.webp" alt="Logo Netflix" />
+        </div>
+
+        <h1>NETBLUE</h1>
+      </header>
+
+      <hr />
+
+      <nav id="navbar">
+        <a href="../index.html">Início</a>
+        <a href="../pages/serie.html">Séries</a>
+        <a href="../pages/movie.html">Filmes</a>
+      </nav>
+
+      <hr />
+
+      <main>
+        <section id="serie-details" class="section">
+          <button id="backButton" onclick="window.history.back()">
+            Voltar
+          </button>
+          <div id="serie-info">
+            <h1 id="serie-title">titulo</h1>
+            <img
+              id="serie-poster"
+              src="../assets/imgs/simbolo.webp"
+              alt="Poster da série"
+            />
+            <!-- <iframe
+              id="serie-trailer"
+              src=""
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
+              allowfullscreen
+            ></iframe> -->
+          </div>
+          <div id="serie-buttons">
+            <button id="assistir-button">Assistir</button>
+            <button onclick="alert('indisponível')">Favoritar</button>
+            <button onclick="alert('indisponível')">Mais detalhes</button>
+          </div>
+          <p id="serie-description">descrição</p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 NetBlue. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

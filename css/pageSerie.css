@@ -1,0 +1,50 @@
+main {
+  margin: 0 auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#serie-details {
+  margin: 0 auto;
+  display: inline;
+  flex-direction: column;
+}
+
+#serie-description {
+  position: relative;
+  transition: all 0.5s ease;
+  padding: 10px;
+}
+
+#serie-description.expandido {
+  transform: translateY(-200px);
+  z-index: 999;
+  background-color: #181818;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+}
+
+#serie-poster {
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+
+#serie-poster:hover:not(.open) {
+  transition: all 0.5s ease;
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+}
+
+#serie-buttons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
